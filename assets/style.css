@@ -4,16 +4,12 @@
     font-family: 'Fredericka the Great', cursive;
 }
 
-h1{
+.container{
     text-align: center;
-    padding: 40px 0px 40px 0px;
+    
 }   
 
 .img-fluid{
-    display: cover;
-}
-
-#hero-image{
-    width: 100vw;
+   content: center;
     
 }
