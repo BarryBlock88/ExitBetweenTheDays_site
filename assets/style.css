@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+*{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h1{
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}   
+
+.img-fluid{
+    display: cover;
+}
+
+#hero-image{
+    width: 100vw;
+    
+}
