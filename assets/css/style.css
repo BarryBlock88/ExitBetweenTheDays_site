@@ -41,7 +41,7 @@ p{
 }
 
 body, html{
-background-image: url(exitbetweenthedays-site/assets/img/handonshoulder.jpg );
+background-image: url('assets/img/handonshoulder-desktop.jpg');
   background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +70,22 @@ footer{
   [class*="col-"] {
     width: 100%;
   }
+
+
+body, html{
+background-image: url('assets/img/handonshoulder-mobile.jpg');
+  background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+footer{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
 .row.box{
     clear: both;
 }
