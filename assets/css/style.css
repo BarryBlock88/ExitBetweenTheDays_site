@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+body,html{
+height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.text{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    color: blanchedalmond;
+}
+.heading-main{
+    font-size: 70px;
+    margin: 240px 0px 550px 0px ;
+}
+p{
+    font-size: 35px;
+    line-height: 5rem;
+    margin: 70px 0px 50px 0px ;
+}
+.heading{
+    font-size: 50px;
+    margin: 50px 0px 70px 0px
+}
+.heading-support{
+    font-size: 70px;
+}
+
+.row.box{
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body, html{
+background-image: url(/workspace/ExitBetweenTheDays_site/assets/img/IMG_1738.jpg);
+  background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+
+.logo.row{
+    
+    margin: 55px 35px 15px 35px;
+}
+.col-6 {
+	flex: unset;
+    max-width: 50%;
+    width: unset;
+    display: block;
+    margin: auto;
+}
+footer{
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+.row.box{
+    clear: both;
+}
+  .heading-main{
+    font-size: 50px;
+    margin: 110px 0px 150px 0px ;
+}
+p{
+    font-size: 30px;
+    line-height: 2.5rem;
+    margin: 50px 0px 30px 0px ;
+}
+.heading-support{
+    font-size: 30px;
+    margin: 50px 0px 70px 0px
+}
+.container-fluid {
+	width: 100%;
+	/* padding-right: 15px; */
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo-1.col-6.col-xs-10,
+.logo-3.col-6.col-xs-10{
+	flex: unset;
+	max-width: 80%;
+	/* width: unset; */
+	display: block;
+	margin: auto;
+}
+}
