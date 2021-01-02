@@ -82,7 +82,7 @@ background-image: url('assets/img/handonshoulder-mobile.jpg');
 }
 
 
-footer{
+footer .row.box{
     padding-bottom: 50px;
     margin-bottom: 20px;
 }
