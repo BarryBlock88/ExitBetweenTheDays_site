@@ -79,6 +79,11 @@ footer{
     margin-bottom: 80px;
 }
 
+
+.container-fluid.row.video{
+    text-align: center;
+}
+
 @media (max-width: 768px) {
   [class*="col-"] {
     width: 100%;
@@ -92,7 +97,7 @@ footer{
     color: blanchedalmond;
 }
 
-body{
+body, html{
 background-image: url(../img/handonshoulder-mobile.jpg);
   
     
